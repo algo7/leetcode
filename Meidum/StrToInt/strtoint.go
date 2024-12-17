@@ -78,7 +78,7 @@ func MyAtoi(s string) int {
 
 		switch isNegative {
 		case true:
-			return -math.MaxInt32 - 1
+			return math.MinInt32
 		case false:
 			return math.MaxInt32
 		}
