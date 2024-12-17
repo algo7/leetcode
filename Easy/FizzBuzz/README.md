@@ -1,4 +1,4 @@
-# Descriptions
+# Description
 
 Given an integer n, return a string array answer (1-indexed) where:
 
