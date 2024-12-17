@@ -15,3 +15,23 @@ func TwoSumDoubleLoop(nums []int, target int) []int {
 
 	return []int{}
 }
+
+// time complexity O(n)
+func TwoSumMap(nums []int, target int) []int {
+
+	myMap := map[int]int{}
+
+	for i, n := range nums {
+
+		missing := target - n
+
+		value, found := myMap[missing]
+		if found {
+			return []int{i, value}
+		}
+
+		myMap[n] = i
+	}
+
+	return []int{}
+}
