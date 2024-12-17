@@ -70,7 +70,8 @@ func MyAtoi(s string) int {
 	// merge the string slice back to a string
 	finalStr := strings.Join(sa, "")
 
-	// convert it to number
+	// convert it to number.
+	// there must be a way not to call the actual atoi
 	x, _ := strconv.Atoi(finalStr)
 
 	// check if the resulting int is out of bound
