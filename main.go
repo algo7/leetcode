@@ -3,10 +3,11 @@ package main
 import (
 	"log"
 
-	reverseinteger "github.com/algo7/leetcode/Meidum/ReverseInteger"
+	romantointeger "github.com/algo7/leetcode/Easy/RomanToInteger"
 )
 
 func main() {
-	r := reverseinteger.Reverse(-2147483648)
+	r := romantointeger.RomanToInt("MCM")
+
 	log.Println(r)
 }
