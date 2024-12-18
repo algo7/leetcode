@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	r := romantointeger.RomanToInt("MCM")
+	r := romantointeger.RomanToIntFirst("MCM")
 
 	log.Println(r)
 }
